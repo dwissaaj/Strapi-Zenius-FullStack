@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "button_links",
+  "info": {
+    "singularName": "button-link",
+    "pluralName": "button-links",
+    "displayName": "button",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "firstBtn": {
+      "type": "string",
+      "required": true
+    },
+    "secondBtn": {
+      "type": "string",
+      "required": true
+    },
+    "thirdBtn": {
+      "type": "string",
+      "required": true
+    },
+    "fourthBtn": {
+      "type": "string",
+      "required": true
+    },
+    "zerobutton": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
